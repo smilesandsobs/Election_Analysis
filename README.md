@@ -1,32 +1,42 @@
 # Election_Analysis
 
 ##Project Overview 
-A Colorado Board of Election employee has given you the following tasks to complete the election audit of a recent local congressional election.
+Tom, a Colorado Board of Election employee has asked us to work with him to complete an election audit of a recent local congressional election. We need to report: 
 
-1. Calculate the toal number of votes cast 
-2. Get a complete list of candidates who received votes. 
-3. Calculate the total number of votes each candidate received.
-4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on popular vote.
+1. Toal number of votes cast 
+2. Total number of votes for each candidate
+3. Percentage of votes for each candidate
+4. The winner of the election based on the popular vote
+5. The percentage of votes from each county 
+6. Which county had the largest turnout
 
 ## Resources 
 -Data Souce: Election_results.csv 
-Software: Python 3.6.1, Visual Studio Code, 1.38.1
+Software: Python 3.7.6, Visual Studio Code, 1.62.0
 
-##Summary
+## Results
 The analysis of the election show that:
--There were "x" votes cast in the election.
+-There were 369,711 votes cast in the election.
 -The candidates were:
-    -Candidate 1
-    -Candidate 2
-    -Candidate 3
+    -Charles Casper Stockham
+    -Diana DeGette
+    -Raymon Anthony Doane
 -The candidate results were:
-    -Candidate 1 received "x%" of the vote and "y" number of votes.
-    -Candidate 2 received "x%" of the vote and "y" number of votes.
-    -Candidate 3 received "x%" of the vote and "y" number of votes.
+    -Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
+    -Diana DeGette received 73.8% of the vote and 272,892 number of votes.
+    -Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
 -The winner of the election was:
-    -Candidate (1, 2, or 3), who received "x%" of the vote and "y" number of votes.
+    -Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
+-The % of votes cast by County were:
+    -Jefferson: 10.5% (38,855)
+    -Denver: 82.8% (306,055)
+    -Arapahoe: 6.7% (24,801)
+-The largest Country turnout was Denver with 82.8% 
 
-##Challenge Overview 
+## Challenge Summary 
 
-##Challenge Summary 
+Using the tools of Python, Visual Studio Code and the data set, we were able to create a tool which saved a lot of manual counting and can easily be slightly motified to use again for additional elections. We defined our variable, looped through the dataset, checked to see if the vote was for the candidate, and calculated and printed out large totals. 
+
+ By just creating a new text document to save to and by uploading additional csv data results, this scrip can be used again in future elections. If required and the necessary data was collected, it could be motified to count voter turnout by age or by political party. Additional analysis can be collected for the Colorado Board of Elections to study and understand patterns amongst their voters. 
+ 
+ Please disregard my consistant use of the word COUNTRY instead of COUNTY in the code... 
