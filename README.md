@@ -11,27 +11,46 @@ Tom, a Colorado Board of Election employee has asked us to work with him to comp
 6. Which county had the largest turnout
 
 ## Resources 
+
 -Data Souce: Election_results.csv 
+
 Software: Python 3.7.6, Visual Studio Code, 1.62.0
 
 ## Results
 The analysis of the election show that:
+
 -There were 369,711 votes cast in the election.
+
 -The candidates were:
+
     -Charles Casper Stockham
+    
     -Diana DeGette
+    
     -Raymon Anthony Doane
+    
 -The candidate results were:
+
     -Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
+    
     -Diana DeGette received 73.8% of the vote and 272,892 number of votes.
+    
     -Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
+    
 -The winner of the election was:
+
     -Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
+    
 -The % of votes cast by County were:
+
     -Jefferson: 10.5% (38,855)
+    
     -Denver: 82.8% (306,055)
+    
     -Arapahoe: 6.7% (24,801)
+    
 -The largest Country turnout was Denver with 82.8% 
+
 
 ## Challenge Summary 
 
